@@ -1,0 +1,46 @@
+.banner {
+	bottom: 220px;
+	z-index: 2;
+}
+.banner h1 {
+	font-size: 35px;
+	letter-spacing: 2px;
+}
+.banner p {
+	font-size: 16px;
+	line-height: 2;
+}
+.banner-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 1;
+}
+small{
+    font-size: 0.4em;
+    font-weight: normal;
+}
+.logo{
+    font-size: 1.2em;
+}
+.btn-js,
+.btn-r,
+.btn-ada{
+    padding: 0 5px;
+    font-size: small;
+}
+.info-place{
+    font-size: 14px;
+}
+.navbar{
+    background: rgb(33,37,41);
+    background: linear-gradient(90deg, rgba(33,37,41,1) 0%, rgb(33, 52, 71) 35%, rgb(17, 44, 73) 100%);
+}
+.btn-submit{
+    background-color: rgb(141,182,0);
+    border: none;
+}
